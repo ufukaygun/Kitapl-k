@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Kitaplık.Entities.Concrete
 {
-    public class Author
+    public class Publisher
     {
         public int Id { get; set; }
         public string Name { get; set; }
