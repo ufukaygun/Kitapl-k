@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Kitaplık.DAL.Abstract
 {
-    internal interface ICategoryDal
+    public interface ICategoryDal
     {
         List<Category> GetAll();
         ICategoryDal GetById(int Id);
