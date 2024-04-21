@@ -11,4 +11,9 @@
     <Folder Include="Concrete\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Kitaplık.DAL\Kitaplık.DAL.csproj" />
+    <ProjectReference Include="..\Kitaplık.Entities\Kitaplık.Entities.csproj" />
+  </ItemGroup>
+
 </Project>
